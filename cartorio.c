@@ -136,9 +136,10 @@ int main()
 		//Inicio do Menu
 		printf("### Cartório da EBAC ###\n\n");
 		printf("Escolha a opção desejada do memu:\n\n");
-		printf("\t1 - Registrar nomes:\n");
-		printf("\t2 - Consultar nomes:\n");
-		printf("\t3 - Deletar nomes:\n\n");
+		printf("\t1 - Registrar nomes\n");
+		printf("\t2 - Consultar nomes\n");
+		printf("\t3 - Deletar nomes\n");
+		printf("\t4 - Sair\n\n");
 		printf("Opção: ");
 		//Fim do Menu
 		
@@ -161,6 +162,11 @@ int main()
 				
 			case 3:
 				deletar(); //Chamada de função
+			break;
+			
+			case 4:
+				printf("Obrigado por utilizar o sistema!");;
+				return 0;
 			break;
 			
 			default:
